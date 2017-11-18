@@ -1,0 +1,21 @@
+\documentclass[francais]{invoice}
+
+\def\vat{21}
+\def\discount{0}
+\def\invoiceNumber{1729-42}
+\def\invoiceMonth{Décembre 2017}
+\def\client{Très cher client  \\
+        habitant telle rue,\\
+        dans telle ville}
+
+
+\begin{document}
+
+%\addinvoiceline{Description}{Prix unitaire}{Quantité}
+\addinvoiceline{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}{10000}{1}
+\addinvoiceline{\textbf{Un texte en gras}\begin{itemize} \item[$\bullet$] Une liste \item[$\bullet$] à points \end{itemize}}{1000}{20}
+
+\maketabular
+
+\end{document}
+
