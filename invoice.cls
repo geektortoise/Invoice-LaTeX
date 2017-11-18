@@ -278,7 +278,7 @@
 \fancyhead[C]{%
   \begin{tikzpicture}[overlay, remember picture]%
     \fill[tortoise] (current page.north west)+(0,-.33in) rectangle ($(current page.north east)-(0,.39in)$);
-    \node[anchor=south] at ($(current page.north)-(0,1in)$) {\includegraphics[height=3cm]{images/logo}};%
+    %\node[anchor=south] at ($(current page.north)-(0,1in)$) {\includegraphics[height=3cm]{images/logo}};%
     \node[anchor=south] at ($(current page.north)+(2.5in,-.6in)$) {%
       \begin{tcolorbox}[sharp corners, rounded corners=northeast, rounded corners=southwest, arc=5mm, colback=black, colframe=black,coltext=white,width=3.5cm]%
         \begin{center}\bfseries \invoiceLabel\end{center}%
