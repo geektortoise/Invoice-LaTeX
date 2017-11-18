@@ -18,6 +18,13 @@ apt-get update -y && apt-get -y install \
 		texlive \
 		texlive-xetex \
 		texlive-fonts-extra \
-		nano \
 		texlive-lang-french
 ```
+
+### Your name is still into the cls and not into an external variable !
+Yep !  
+The name and adress of the user of this template will not change often compare to its clients.  
+So I didn't want to have useless lines like "Myself, my adress, ..." into each of my tex files.  
+I'm lazy, that's the spirit.
+
+If you want to use this template for your invoices, you just need to update these values into the cls file.
